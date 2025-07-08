@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Home {
   title: string = 'Synzur';
+  navList: string[] = ['Home', 'Service', 'About', 'Contact Us'];
 }
